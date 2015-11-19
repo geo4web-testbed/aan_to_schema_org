@@ -1,1 +1,1 @@
-# Repository for the maping from AAN schema to Schema.org 
+# AAN to Schema.org 
