@@ -6,7 +6,7 @@
     "@id" : "aanex:1356489",
     "sgeo:source" : "luchtfoto 2013",
     "sgeo:type" : "BTR-landbouw",
-     "geo" : "aanex:356490",
+     "geo" : "aanex:somegenerateduniqueid",
     "rdf:type" : {
       "@id" : "schema:Place"
     }
