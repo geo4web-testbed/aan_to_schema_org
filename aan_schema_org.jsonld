@@ -2,7 +2,9 @@
   "@graph" : [ {
     "@id" : "http://example.org/aanexample/",
     "rdf:type" : {
-      "@id" : "schema:Dataset"}}, {
+      "@id" : "schema:Dataset"}
+    }, 
+ {
     "@id" : "aanex:1356489",
     "sgeo:source" : "luchtfoto 2013",
     "sgeo:type" : "BTR-landbouw",
@@ -21,8 +23,8 @@
   "@context" : {
     "schema" : "http://schema.org/",
     "aanex" : "http://example.org/aanexample/",
-	"rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
-	"sgeo" : "http://geo.schema.org/"
+    "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "sgeo" : "http://geo.schema.org/"
  
   }
 
