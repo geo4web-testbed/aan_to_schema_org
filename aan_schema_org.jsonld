@@ -3,6 +3,7 @@
     {
       "@id": "http://example.org/aanexample/1356489",
       "@type": "http://schema.org/Place",
+	  "http://schema.org/description" :"BTR-landbouw",
       "http://schema.org/geo": {
         "@id": "http://example.org/aanexample/356490"
       }
