@@ -4,10 +4,9 @@
       "@id": "http://example.org/aan/place/1356489",
       "@type": "http://schema.org/Place",
 	  "http://schema.org/description" :"BTR-landbouw",
-	   "http://schema.org/sameAs": [
-        "http://anotherexample.org/xyz/place/12345",
-		"http://dbpedia.org/resource/Valkenswaard"
-      ],
+	    "http://schema.org/containedInPlace":
+		[ {"@id":"http://anotherexample.org/xyz/place/12345", "@type":  "http://schema.org/Place"}, 
+		{"@id": "http://dbpedia.org/resource/Valkenswaard"    ,"@type":"http://schema.org/Place" }],
       "http://schema.org/geo": {
         "@id": "http://example.org/aan/shape/356490"
       }
